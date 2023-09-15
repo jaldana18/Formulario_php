@@ -15,32 +15,12 @@ $departamento = $datos["departamento"];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/thankyou.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Ticket de Información</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            padding: 20px;
-        }
-
-        .content-info {
-            background-color: #fff;
-            border: 2px solid #ccc;
-            padding: 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            width: 300px; /* Ancho del ticket */
-            margin: 0 auto; /* Centrar en la página */
-        }
-
-        .content-info p {
-            font-size: 16px;
-            margin: 0;
-        }
-
-        .content-info p:first-child {
-            font-weight: bold;
-        }
-    </style>
+    
 </head>
 <body>
     <div class="content-info">

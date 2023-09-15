@@ -44,8 +44,7 @@ session_start();
 
               echo "<script>
 
-                alert('Datos guardados con exito');
-                window.location.href = 'prueba.php';
+                window.location.href = 'thankyou.php';
 
             </script>";
            } else {
