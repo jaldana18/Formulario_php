@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+}
+
+.imgLogo {
+    position: absolute;
+    height: 75px;
+}
+
+.containerRegister {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formContainer {
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.titleRegister {
+    text-align: center;
+}
+
+.btnNext {
+    float: right;
+    margin-top: 10px;
+    border: none;
+    background-color: black;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.imgRegistro1 {
+    height: 100vh;
+    width: 530px;
+}
+
+.inpForm {
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 40px;
+    width: 600px;
+    margin-top: -20px;
+}
+
+.inpFormMessage{
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 200px;
+    width: 600px;
+    margin-top: 0px;
+
+}
+
+.imgInfo {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+
+.txtInfo {
+    width: 580px;
+    margin-left: 10px;
+}
+
+.custom-inp-file {
+    color: rgb(1, 207, 163);
+    border: 2px solid rgb(1, 207, 163);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto 0;
+    min-height: 15px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 585px;
+  }
+  
+  .custom-inp-file .inp-file {
+   border: 100px solid aqua;
+   cursor: pointer;
+   font-size: 10000px;
+   margin: 20px;
+   opacity: 0.5;
+   outline: 0 none;
+   padding: 0;
+   position: absolute;
+   right: -1000px;
+   top: -1000px;
+  }
+
+
+
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.txtLogin {
+    color: aqua;
+}
+/* Estilo para el contenedor del "ticket" */
+.content-info {
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+/* Estilo para el nombre del cliente */
+.content-info p:first-child {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el número de caso */
+.content-info p:nth-child(2) {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilo para el empleado */
+.content-info p:nth-child(3) {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Estilo para el "ticket" en sí */
+.ticket {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 2px solid #000;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 5px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
